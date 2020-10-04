@@ -1,4 +1,4 @@
-#Ignore the spyder bat file
-Openspyder.bat
-#Ignore the spyder project folder
+#Ignore the spyder batch file\ 
+OpenSpyder.bat
+#Ignore the spyder project folder 
 .spyproject/*
