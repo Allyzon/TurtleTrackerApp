@@ -21,9 +21,9 @@ line_list=file_object.readlines()
 #close the file
 file_object.close()
 
-# Pretend we read one line of data from the file 
-
-lineString = line_list [100]
+# Iterate through all lines in the linelist 
+for lineString in line_list:
+    if lineString[0] in ("#", "u"): continue 
 
 
 #split the string into a list of data items
